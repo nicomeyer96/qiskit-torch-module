@@ -1,0 +1,4 @@
+gymnasium~=0.29.1
+qiskit-machine-learning~=0.7.1
+tqdm~=4.66.2
+torchvision~=0.17.1
