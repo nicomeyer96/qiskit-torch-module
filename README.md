@@ -86,7 +86,7 @@ If you use the `qiskit-torch-module` or results from the paper, please cite our 
 ```
 @article{meyer2024qiskit,
   title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks},
-  author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D.},
+  author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
   journal={arXiv:...},
   year={2024},
   doi={.../arXiv...}
