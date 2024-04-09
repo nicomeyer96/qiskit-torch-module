@@ -10,8 +10,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Fraunhofer IIS',
+    author_email='nico.meyer@iis.fraunhofer.de',
     license='Apache License 2.0',
     platforms='any',
+    url='https://github.com/nicomeyer96/qiskit-torch-module',
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',

@@ -1,4 +1,17 @@
-# Comprehensive Library of Variational LSE Solvers
+<table>
+  <tr>
+    <td>
+      <img src="qtm_logo.png" alt="overview" width="200"/>
+    </td>
+    <td>
+      <h1>Qiskit-Torch-Module</h1>
+    </td>
+  </tr>
+</table>
+
+[![Static Badge](https://img.shields.io/badge/arXiv-0000.00000-red)
+](https://arxiv.org/search/quant-ph?searchtype=author&query=Meyer,+N)
+[![Static Badge](https://img.shields.io/badge/PyPI-pip_install_qiskit--torch--module-blue)](https://pypi.org/project/qiskit-torch-module/)
 
 This repo contains the code for the `qiskit-torch-module` introduced in 
 "Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al. (2024).
