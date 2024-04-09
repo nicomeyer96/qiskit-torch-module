@@ -30,10 +30,6 @@ from qiskit_algorithms.gradients import ReverseEstimatorGradient
 from qiskit_machine_learning.neural_networks import EstimatorQNN
 from qiskit_machine_learning.connectors import TorchConnector
 
-# This is only for my machine, suppresses some CUDA warnings  # TODO remove
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning)
-
 
 def quantum_policy_gradients(
         env_name: str,

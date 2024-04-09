@@ -29,10 +29,6 @@ from qiskit_torch_module import QuantumModule
 # generate circuits
 from circuit import generate_circuit
 
-# This is only for my machine, suppresses some CUDA warnings
-import warnings  # TODO remove
-warnings.filterwarnings("ignore", category=UserWarning)
-
 
 def benchmark(
         qubits: int = 12,
