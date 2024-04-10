@@ -13,7 +13,7 @@
 ](https://arxiv.org/abs/2404.06314)[![Static Badge](https://img.shields.io/badge/PyPI-pip_install_qiskit--torch--module-blue)](https://pypi.org/project/qiskit-torch-module/)
 
 This repo contains the code for the `qiskit-torch-module` introduced in 
-"Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al. (2024).
+["Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al., arXiv:2404.06314 (2024)](https://arxiv.org/abs/2404.06314).
 
 ## Setup and Installation
 
