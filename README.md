@@ -9,8 +9,8 @@
   </tr>
 </table>
 
-[![Static Badge](https://img.shields.io/badge/arXiv-0000.00000-red)
-](https://arxiv.org/search/quant-ph?searchtype=author&query=Meyer,+N)[![Static Badge](https://img.shields.io/badge/PyPI-pip_install_qiskit--torch--module-blue)](https://pypi.org/project/qiskit-torch-module/)
+[![Static Badge](https://img.shields.io/badge/arXiv-2404.06314-red)
+](https://arxiv.org/abs/2404.06314)[![Static Badge](https://img.shields.io/badge/PyPI-pip_install_qiskit--torch--module-blue)](https://pypi.org/project/qiskit-torch-module/)
 
 This repo contains the code for the `qiskit-torch-module` introduced in 
 "Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al. (2024).
@@ -99,9 +99,8 @@ If you use the `qiskit-torch-module` or results from the paper, please cite our 
 @article{meyer2024qiskit,
   title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks},
   author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
-  journal={arXiv:...},
-  year={2024},
-  doi={.../arXiv...}
+  journal={arXiv:2404.06314},
+  year={2024}
 }
 ```
 
