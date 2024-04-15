@@ -15,6 +15,8 @@
 This repo contains the code for the `qiskit-torch-module` introduced in 
 ["Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al., arXiv:2404.06314 (2024)](https://arxiv.org/abs/2404.06314).
 
+> Quantum computer simulation software is an integral tool for the research efforts in the quantum computing community. An important aspect is the efficiency of respective frameworks, especially for training variational quantum algorithms. Focusing on the widely used Qiskit software environment, we develop the **qiskit-torch-module**. It **improves runtime performance by two orders of magnitude** over comparable libraries, while facilitating **low-overhead integration with existing codebases**. Moreover, the framework provides **advanced tools for integrating quantum neural networks with PyTorch**. The pipeline is tailored for single-machine compute systems, which constitute a widely employed setup in day-to-day research efforts.
+
 ## Setup and Installation
 
 The library requires an installation of `python 3.12`, and following libraries:
@@ -39,7 +41,7 @@ pip install -e .
 ## Usage and Reproduction of Results
 
 Information on how to use the different modalities of the libraries are described in the documentation.
-Additionally, we provide to usage examples.
+Additionally, we provide two usage examples.
 
 To run the benchmarks and end-to-end implementations, the additional libraries in `examples/requirements.txt` need to be installed:
 - `gymnasium~=0.29.1`
@@ -89,7 +91,7 @@ python examples/qrl.py [--use_qml]
 
 The backbone of our implementation is the ``qiskit`` software framework: https://github.com/Qiskit
 
-Furthermore, we git inspired by ``qiskit-machine-learning``: https://github.com/qiskit-community/qiskit-machine-learning
+Furthermore, we got inspired by ``qiskit-machine-learning``: https://github.com/qiskit-community/qiskit-machine-learning
 
 ## Citation
 
@@ -100,7 +102,8 @@ If you use the `qiskit-torch-module` or results from the paper, please cite our 
   title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks},
   author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
   journal={arXiv:2404.06314},
-  year={2024}
+  year={2024},
+  doi={10.48550/arXiv.2404.06314}
 }
 ```
 
