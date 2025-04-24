@@ -9,11 +9,12 @@
   </tr>
 </table>
 
-[![Static Badge](https://img.shields.io/badge/arXiv-2404.06314-red)
+[![Static Badge](https://img.shields.io/badge/IEEE-QCE60285.2024.00101-00629B)
+](https://ieeexplore.ieee.org/document/10821318)[![Static Badge](https://img.shields.io/badge/arXiv-2404.06314-red)
 ](https://arxiv.org/abs/2404.06314)[![Static Badge](https://img.shields.io/badge/PyPI-pip_install_qiskit--torch--module-blue)](https://pypi.org/project/qiskit-torch-module/)
 
 This repo contains the code for the `qiskit-torch-module` introduced in 
-["Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al., arXiv:2404.06314 (2024)](https://arxiv.org/abs/2404.06314).
+["Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks", N. Meyer et al., IEEE QCE, vol. 1, pp. 817-823, 2024](https://ieeexplore.ieee.org/document/10821318).
 
 > Quantum computer simulation software is an integral tool for the research efforts in the quantum computing community. An important aspect is the efficiency of respective frameworks, especially for training variational quantum algorithms. Focusing on the widely used Qiskit software environment, we develop the **qiskit-torch-module**. It **improves runtime performance by two orders of magnitude** over comparable libraries, while facilitating **low-overhead integration with existing codebases**. Moreover, the framework provides **advanced tools for integrating quantum neural networks with PyTorch**. The pipeline is tailored for single-machine compute systems, which constitute a widely employed setup in day-to-day research efforts.
 
@@ -98,12 +99,14 @@ Furthermore, we got inspired by ``qiskit-machine-learning``: https://github.com/
 If you use the `qiskit-torch-module` or results from the paper, please cite our work as
 
 ```
-@article{meyer2024qiskit,
+@inproceedings{meyer2024qiskit,
   title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks},
   author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
-  journal={arXiv:2404.06314},
+  booktitle={IEEE International Conference on Quantum Computing and Engineering (QCE)},
+  volume={1},
+  pages={817--823},
   year={2024},
-  doi={10.48550/arXiv.2404.06314}
+  doi={10.1109/QCE60285.2024.00101}
 }
 ```
 
